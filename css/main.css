@@ -131,6 +131,10 @@
   cursor: pointer;
 }
 
+.filters .dropdown-body .active-filter {
+  background-color: rgb(221, 255, 127);
+}
+
 .filters .dropdown-body li:hover {
   background-color: #f2f2f2;
 }
@@ -222,4 +226,8 @@
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 15px;
+}
+
+.filters .dropdown-body .active {
+  visibility: visible;
 }
