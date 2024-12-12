@@ -3,7 +3,12 @@
     Any logic related to communication with the API, should be implemented (exclusively!) at ./src/api-agent
 */
 
+// INITIALIZE 'allCountriesDomElems' & 'allCountriesJSONList through THE API-AGENT 
+init();
+
 // DOM ELEMENTS
+// This is the main grid display element
+const countriesGrid = document.getElementById("countries-grid");
 const dropDownHeader = document.getElementsByClassName('dropdown-header')[0]; //
 const dropDownWrapper = document.getElementsByClassName('dropdown-wrapper')[0];
 const dropDownOptions = document.querySelectorAll('[data-region]')
@@ -12,8 +17,8 @@ const searchBar = document.getElementsByClassName('search-input')[0];
 // UTILITY VARIABLES FOR SEARCH & OPERATION PURPOSES
 let isDropDownOpen = false; // inidactes the region dropdown filtering menu (open = true; closed = false)
 const activeRegionFilters = new Set(); // holds the selected regions filters
-let serachQuery = ""; // holds the serach bar input query
 const allCountriesDomElems = []; // holds all countries as DOM elements (after being converted from JSON - happen on ./src/api-agent.js)
+let serachQuery = ""; // holds the serach bar input query
 
 
 // UTILITY FUNCTIONS
