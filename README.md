@@ -1,7 +1,6 @@
 # Countries Project
 
 <p style="font-style:italic">Created on: November 2024</p>
----
 
 
 ## About the Project
