@@ -73,6 +73,7 @@
 .filters .dropdown-wrapper {
   position: relative;
   width: 230px;
+  z-index: 2;
 }
 
 @media (min-width: 64em) {
@@ -107,7 +108,7 @@
 .filters .dropdown-header {
   padding: 15px 20px;
   cursor: pointer;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 .filters .dropdown-header .icon {
@@ -131,8 +132,8 @@
   cursor: pointer;
 }
 
-.filters .dropdown-body .active-filter {
-  background-color: rgb(221, 255, 127);
+.filters .dropdown-body .active {
+  background-color: rgb(219, 234, 176);
 }
 
 .filters .dropdown-body li:hover {
