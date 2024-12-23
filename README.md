@@ -1,5 +1,5 @@
 # Countries Project
-*November 2024*
+**November 2024**
 ---
 
 ## About the Project
