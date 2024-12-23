@@ -1,11 +1,8 @@
-<h1>חובה</h1>
+# Countries Project
+*November 2024*
+---
 
-1- אתם צריכים להשתמש בקובץ CountriesData.json על מנת לשאוב את כל הנתונים ולהציג אותם על המסך.
+## About the Project
+This project is a solution to an assignment I had during my participation in the fullstack developement club **[COLMAN's DevClub](#https://github.com/ColmanDevClubORG)**. It uses HTML, CSS, and Vanilla JS, to build a modern looking web application that lets users read information about countries all over the world
 
-2- לממש את הכפתור של הפילטר שברגע שלוחצים עליו יהיה את האופציה לחפש לפי יבשות.
-
-3- ברגע שלוחצים על מדינה, מועברים לעמוד Details על אותה המדינה (העיצוב של העמוד מוכן!).
-
-<h1>בונוס</h1>
-
-1- לממש את השורת חיפוש, שברגע שמקלידים, הדף יציג רק את המדינות שמכילות\מתאימות לערך שהמשתמש הכניס לשורת חיפוש.
+The project calls [REST Countries](#https://restcountries.com/) API's various endpoints, to pull information about countries over HTTP calls.
