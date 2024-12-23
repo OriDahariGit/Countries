@@ -1,6 +1,8 @@
 # Countries Project
-**November 2024**
+
+<p style="font-style:italic">Created on: November 2024</p>
 ---
+
 
 ## About the Project
 This project is a solution to an assignment I had during my participation in the fullstack developement club **[COLMAN's DevClub](#https://github.com/ColmanDevClubORG)**. It uses HTML, CSS, and Vanilla JS, to build a modern looking web application that lets users read information about countries all over the world
